@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icons/app-icon.png",
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
         "backgroundColor": "#0f0f23"
       },
       "edgeToEdgeEnabled": true,
@@ -27,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/icons/app-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f89cbef6-b117-48ce-b321-922fe69ccf16"
+      }
     }
   }
 }
